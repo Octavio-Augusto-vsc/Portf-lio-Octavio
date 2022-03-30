@@ -1,0 +1,27 @@
+
+#contatosDiv{
+
+    display:flex;
+}
+
+
+
+#contatos{
+    
+    padding: 20px;
+    margin-left: 10px;
+    size:60p
+        
+  }
+
+
+  @media (max-width: 540px) {
+
+    #contatosDiv{
+
+        display:flex;
+        flex-direction: column;
+    }
+  } 
+
+  

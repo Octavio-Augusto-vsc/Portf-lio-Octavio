@@ -1,0 +1,14 @@
+#h3git{
+    text-align: center;
+    color: blue;
+    font-size: 70px;
+}
+
+@media (max-width: 394px) {
+
+    #h3git{
+        text-align: center;
+        color: blue;
+        font-size: 40px;
+    }
+}

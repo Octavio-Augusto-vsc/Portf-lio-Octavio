@@ -1,0 +1,41 @@
+#mainProj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 50px;
+    row-gap: 20px;
+    
+
+}
+
+
+
+
+#h1Proj {
+    text-align: center;
+    
+}
+
+#imgPro {
+
+    border-radius: 230px;
+
+    width: 200px;
+}
+
+
+#carocel{
+    display: flex;
+    justify-content: center;
+
+    
+    height: 190px;
+    padding: 0 20px;
+
+    
+    align-items: center;
+}
+
+
+

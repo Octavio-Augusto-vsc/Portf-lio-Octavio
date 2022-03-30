@@ -1,0 +1,163 @@
+
+
+#carousel-1{
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    width: 400px;
+    height: 400px;
+}
+
+#carousel-2{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    
+}
+
+#carousel-3{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+#carousel-4{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+#carousel-5{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+@media (max-width: 1053px) {
+
+    #caPato{
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 467px) {
+
+    #caPato{
+        width: 150px;
+    }
+}
+
+@media (max-width: 667px) {
+
+    #caPato{
+        width: 200px;
+    }
+
+    .carouselTodos{
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    #carousel-1{
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    #carousel-2{
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    #carousel-3{
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #carousel-4{
+    
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #carousel-5{
+    
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+/*@media (max-width: 1053px) {
+
+    #caPato{
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        width: 300px;
+        height: 300px;
+    }
+    
+    #caPato{
+    
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+        
+    }
+    
+    #caPato{
+    
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+    }
+    
+    #caPato{
+    
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+    }
+    
+    #carousel-5 img{
+    
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: caPato
+
+
+    }
+}
+*/
