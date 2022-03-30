@@ -62,9 +62,26 @@ const Projects = () => {
         loadRepositoryLanguage();
       },[]);
   
+      useEffect(() => {
+        const handleMouseLeave = () => {
+            
+    
+          Swal.fire({
 
+            imageUrl: 'https://s2.glbimg.com/iOwtvljs0lUpC8MW1XKQ0uSu4LI=/e.glbimg.com/og/ed/f/original/2015/12/23/thinkstockphotos-487754974.jpg',
+            //imageUrl: <div> <img  src={logoPato}  width={340} /> </div> ,
+           
+            title: '<strong> <mark> Não perda tempo. </mark> <br> Conecte-se ao mundo. </strong>',
+            imageAlt: 'A tall image',
+            
+            
+          })
+        }
     
+        document.addEventListener('mouseleave', handleMouseLeave);
     
+        
+      }, []);
 
     return (
 
@@ -105,7 +122,9 @@ const Projects = () => {
           <h1>{testL.language}</h1>
                
         
-          <Link to="/"><h3 id="h3git">Voltar a pagina principal.</h3></Link>
+            <div id="paiPrinc">
+              <Link to="/" as="a" > <div id="irPrinc" >  <h3 id="h3git"> Home </h3> </div> </Link>
+            </div>
         </div>
        
         <div id="carocel">

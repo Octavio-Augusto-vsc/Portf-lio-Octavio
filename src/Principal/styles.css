@@ -1,3 +1,25 @@
+#paiProject {
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#irProject {
+    
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: red;
+
+    width: 400px;
+    height: 120px;
+
+    border-radius: 70px;
+    margin-bottom:30px;
+    
+}
+
 #h3git{
     text-align: center;
     color: blue;
@@ -6,9 +28,48 @@
 
 @media (max-width: 394px) {
 
+    #irProject {
+
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        background-color: red;
+    
+        width: 200px;
+        height: 100px;
+    
+        border-radius: 70px;
+        margin-bottom:30px;
+        
+    }
+
     #h3git{
         text-align: center;
         color: blue;
-        font-size: 40px;
+        font-size: 30px;
     }
+
 }
+
+@media (max-width: 472px) {
+
+    #irProject {
+
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+        background-color: red;
+    
+        width: 280px;
+        height: 100px;
+    
+        border-radius: 60px;
+        margin-bottom:30px;
+        
+    }
+
+    #h3git{
+        text-align: center;
+        color: blue;
+        font-size: 60px;
+    }
+
+}
+
