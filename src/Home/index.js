@@ -32,8 +32,8 @@ export default function Home ({ princ, proj }) {
 
                 {proj && (
                     <ul className="menu">
-                        <li className="item-menu" onClick={() => scrollToComponent("projetos")}> Projetos </li>
-                        <li className="item-menu" onClick={() => scrollToComponent("contatos")}> Contatos </li>
+                        <li tabindex="1" className="item-menu" onClick={() => scrollToComponent("projetos")}> Projetos </li>
+                        <li tabindex="2" className="item-menu" onClick={() => scrollToComponent("contatos")}> Contatos </li>
                         
 
                     </ul>
@@ -43,9 +43,9 @@ export default function Home ({ princ, proj }) {
 
                 {princ && (
                     <ul className="menu" id="unic">
-                        <li className="item-menu" onClick={() => scrollToComponent("objetivo")}> Objetivo </li>
-                        <li className="item-menu" onClick={() => scrollToComponent("sobre")}> Sobre </li>
-                        <li className="item-menu" onClick={() => scrollToComponent("contatos")}> Contatos </li>
+                        <li tabindex="1" className="item-menu" onClick={() => scrollToComponent("objetivo")}> Objetivo </li>
+                        <li tabindex="2" className="item-menu" onClick={() => scrollToComponent("sobre")}> Sobre </li>
+                        <li tabindex="3" className="item-menu" onClick={() => scrollToComponent("contatos")}> Contatos </li>
                     </ul>
                 )}
                 
