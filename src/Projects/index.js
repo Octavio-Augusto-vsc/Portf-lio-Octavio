@@ -152,5 +152,4 @@ const Projects = () => {
 //  NA LINHA 45  EU FIZ UMA CONDICIONAL QUE APARENTEMENTE ESTA SERTO MAIS EU NÃO TENHO SERTEZA (tipo aparece no console do navegador).
 // mas tambem pode ser que falta um MAP na linha 104 ?  (para aparece uma linguagem de cada ou seria u filter)
 
-
-
+// e como eu faço para o alerta tipo handleMouseLeave que abre a mensagem na tela quando o usuario for sair do site para de abri toda hora ( so abri uma vez ) ??

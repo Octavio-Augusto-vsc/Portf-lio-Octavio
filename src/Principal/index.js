@@ -12,7 +12,7 @@ import Swal from 'sweetalert2';
 
 export default function Principal(){
 
-    useEffect(() => {
+    useEffect(() => { 
         const handleMouseLeave = () => {
             
     
@@ -29,11 +29,16 @@ export default function Principal(){
           })
         }
     
+         
+
         document.addEventListener('mouseleave', handleMouseLeave);
+        
     
         // Professor como eu faço para o POPAP so abri a primeira vez que o usuario for fexar a pagina ????
         
       }, []);
+
+      
 
     return(
 

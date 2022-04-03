@@ -35,13 +35,14 @@ function Caroc (){
 return(
 <Carousel
   swipeable={false}
-  draggable={true}
+  draggable={false}
   showDots={true}
   responsive={responsive}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
   Carrossel  modeCenter = { true } 
   autoPlaySpeed={2200}
+  autoPlay={true}
   
   
   keyBoardControl={true}
